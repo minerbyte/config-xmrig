@@ -1,0 +1,51 @@
+{
+    "algo": "cryptonight-upx/2",
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "id": null,
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": true
+    },
+    "autosave": true,
+    "av": 0,
+    "background": false,
+    "colors": true,
+    "cpu-affinity": null,
+    "cpu-priority": null,
+    "donate-level": 1,
+    "huge-pages": true,
+    "hw-aes": null,
+    "log-file": null,
+    "max-cpu-usage": 70,
+    "pools": [
+        {
+        "url": "upxpool.com:2222",
+        "user": "UPX1X34BxKLeKcd2NEHsKKbhAANSpChUXfVSZ2Rt444DfKQwx69wfViRq3iWH871aHEHjQBg56MEPCZfchbj4AmvAfLYND6QiC.40000",
+        "rig_id": "Worker_UPX",
+        "pass": "x",
+        "use_nicehash": false,
+        "use_tls": false,
+        "tls_fingerprint": null,
+        "pool_weight": 1
+    },
+],
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "safe": false,
+    "threads": [
+    {
+            "low_power_mode": 1,
+            "affine_to_cpu": false
+        },
+        {
+            "low_power_mode": 1,
+            "affine_to_cpu": false
+        }
+        ],
+    "user-agent": null,
+    "syslog": false,
+    "watch": true
+}
